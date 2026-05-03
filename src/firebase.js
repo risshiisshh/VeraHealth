@@ -2,14 +2,13 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 
 // Your web app's Firebase configuration
-// Replace these with your actual Firebase project config or use environment variables
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSy_MOCK_API_KEY",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "mock-project.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "mock-project",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "mock-project.appspot.com",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "1234567890",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:1234567890:web:abcdef"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyCQFfVkj_rW7o693uAOY0hlAGUFGbhiZqg",
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "verahealth-f0b99.firebaseapp.com",
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "verahealth-f0b99",
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "verahealth-f0b99.firebasestorage.app",
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "699789479792",
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:699789479792:web:bae36298160f83ea7309b5"
 };
 
 // Initialize Firebase
