@@ -10,6 +10,7 @@ import MacroTracker from './pages/MacroTracker'
 import MealPlanner from './pages/MealPlanner'
 import Vitals from './pages/Vitals'
 import LabResults from './pages/LabResults'
+import Recipes from './pages/Recipes'
 
 // Protected Route Wrapper
 const ProtectedRoute = ({ children }) => {
@@ -30,6 +31,7 @@ function AppRoutes() {
         <Route path="/meal-planner" element={<ProtectedRoute><MealPlanner /></ProtectedRoute>} />
         <Route path="/vitals" element={<ProtectedRoute><Vitals /></ProtectedRoute>} />
         <Route path="/lab-results" element={<ProtectedRoute><LabResults /></ProtectedRoute>} />
+        <Route path="/recipes" element={<ProtectedRoute><Recipes /></ProtectedRoute>} />
       </Routes>
     </MainLayout>
   );
